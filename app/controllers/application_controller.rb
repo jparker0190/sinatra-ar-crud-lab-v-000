@@ -1,6 +1,5 @@
 
 require_relative '../../config/environment'
-require_relative '../models/post.rb'
 
 class ApplicationController < Sinatra::Base
 
