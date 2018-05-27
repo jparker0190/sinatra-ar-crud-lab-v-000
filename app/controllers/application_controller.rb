@@ -1,5 +1,6 @@
 
 require_relative '../../config/environment'
+require_relative '../models/post.rb'
 
 class ApplicationController < Sinatra::Base
 
@@ -14,6 +15,7 @@ class ApplicationController < Sinatra::Base
     erb :new
   end
   post '/posts' do
+    Post.
     erb :index
   end
 end
